@@ -5,12 +5,7 @@ module.exports = {
     extend: {
       colors: {
         "prim-orange": "#FF9A4D",
-        "medium-green": "#325244",
-        "dark-green": "#2E473C",
-        "regular-green": "#365E4C",
-        "biege-text": "#F8F2E3",
-        "dark-text": "#4A4A4A",
-        "orange-text": "#C98E54",
+        "prim-blue": "#358CD6",
       },
       zIndex: {
         "-1": "-1",
