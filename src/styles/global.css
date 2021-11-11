@@ -1,0 +1,33 @@
+html,
+body {
+  font-family: "Montserrat", sans-serif !important;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #202334;
+  color: #fafafa;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.font-sans {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.bgHero {
+  background-image: url("../images/hero.jpg");
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
