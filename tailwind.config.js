@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         "prim-orange": "#FF9A4D",
         "prim-blue": "#358CD6",
+        "sec-purple": "#2C314A",
       },
       zIndex: {
         "-1": "-1",
