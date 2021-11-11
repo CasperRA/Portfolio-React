@@ -3,6 +3,7 @@ import * as React from "react";
 //components
 import Hero from "../components/Hero";
 import About from "../components/About";
+import Projects from "../components/Projects";
 
 // markup
 const IndexPage = () => {
@@ -12,6 +13,7 @@ const IndexPage = () => {
         <title>Home Page</title>
         <Hero />
         <About />
+        <Projects />
       </div>
     </main>
   );
