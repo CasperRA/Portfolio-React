@@ -1,9 +1,11 @@
 import React from "react";
 import "../styles/global.css";
+import "../styles/slider.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ScrollContainer from "react-indiana-drag-scroll";
+import { Link } from "gatsby";
 
 function Projects() {
   useEffect(() => {
@@ -11,33 +13,34 @@ function Projects() {
   }, []);
   return (
     <div>
-      <ScrollContainer className="carousel">
-        <Link draggable="false" to="/NaestvedProvsti">
-          <div className="carouselItem case1">
-            <h2>Næstved Provsti</h2>
-          </div>
-        </Link>
-        <Link draggable="false" to="/item2">
-          <div className="carouselItem case2">
-            <h2>Tension Therapy</h2>
-          </div>
-        </Link>
-        <Link draggable="false" to="/item3">
-          <div className="carouselItem case3">
-            <h2>Case 3</h2>
-          </div>
-        </Link>
-        <Link draggable="false" to="/item4">
-          <div className="carouselItem case4">
-            <h2>Case 4</h2>
-          </div>
-        </Link>
-        <Link draggable="false" to="/item5">
-          <div className="carouselItem case5">
-            <h2>Case 5</h2>
-          </div>
-        </Link>
-      </ScrollContainer>
+      <h2
+        data-aos="fade-down"
+        className="text-center font-semibold text-4xl mt-40"
+      >
+        <span className="text-prim-orange">MY</span> PROJECTS
+      </h2>
+      <h2 className="text-5xl font-bold absolute opacity-25 ml-4 mt-14 lg:text-7xl ">
+        PROJECTS
+      </h2>
+      <div data-aos="fade-right">
+        <ScrollContainer className="carousel">
+          <Link draggable="false" to="/Provsti">
+            <div className="carouselItem case1">
+              <h2>Næstved Provsti</h2>
+            </div>
+          </Link>
+          <Link draggable="false" to="/Nordvest">
+            <div className="carouselItem case2">
+              <h2>Nordvest Ølbar</h2>
+            </div>
+          </Link>
+          <Link draggable="false" to="/Genskab">
+            <div className="carouselItem case3">
+              <h2>Genskab</h2>
+            </div>
+          </Link>
+        </ScrollContainer>
+      </div>
     </div>
   );
 }

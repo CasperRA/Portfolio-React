@@ -13,9 +13,9 @@ function About() {
     <div className="overflow-hidden">
       <h2
         data-aos="fade-down"
-        className="text-center font-semibold text-5xl mt-10"
+        className="text-center font-semibold text-4xl mt-10"
       >
-        About <span className="text-prim-orange">Me</span>
+        ABOUT <span className="text-prim-orange">ME</span>
       </h2>
       <h2 className="text-5xl font-bold absolute opacity-25 ml-4 lg:text-7xl">
         ABOUT
@@ -52,7 +52,8 @@ function About() {
           </h3>
           <p className="mt-4 text-lg font-medium md:text-xl 2xl:text-xl 2xl:mt-8">
             HTML <br /> CSS <br /> JS <br /> SASS <br /> VueJS <br /> ReactJS
-            <br /> Gatsby <br /> Bootstrap <br /> Bulma <br /> NPM/Yarn
+            <br /> Gatsby <br /> Bootstrap <br /> Bulma <br /> NPM/Yarn <br />
+            Tailwind
           </p>
         </div>
         <div
