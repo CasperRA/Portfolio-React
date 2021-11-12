@@ -27,8 +27,16 @@ body {
   background-position: center;
 }
 
+.prim-purple {
+  background-color: #2c314a;
+}
+
 .sec-purple {
   background-color: #2c314a;
+}
+
+.drop-shadow {
+  filter: drop-shadow(8px 8px 0px #358cd6);
 }
 
 /* ./src/styles/global.css */

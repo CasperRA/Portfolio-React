@@ -26,17 +26,23 @@ function Projects() {
         <ScrollContainer className="carousel">
           <Link draggable="false" to="/Provsti">
             <div className="carouselItem case1">
-              <h2>Næstved Provsti</h2>
-            </div>
-          </Link>
-          <Link draggable="false" to="/Nordvest">
-            <div className="carouselItem case2">
-              <h2>Nordvest Ølbar</h2>
+              <div className="w-64 text-center py-12 prim-purple drop-shadow">
+                <h2>Næstved Provsti</h2>
+              </div>
             </div>
           </Link>
           <Link draggable="false" to="/Genskab">
+            <div className="carouselItem case2">
+              <div className="w-64 text-center py-12 prim-purple drop-shadow">
+                <h2>Genskab</h2>
+              </div>
+            </div>
+          </Link>
+          <Link draggable="false" to="/Nordvest">
             <div className="carouselItem case3">
-              <h2>Genskab</h2>
+              <div className="w-64 text-center py-12 prim-purple drop-shadow">
+                <h2>Nordvest Ølbar</h2>
+              </div>
             </div>
           </Link>
         </ScrollContainer>

@@ -18,8 +18,9 @@
   display: flex;
   justify-content: center;
   width: 82.5vw;
-  height: 80vh;
+  height: 60vh;
   font-size: 1.5em;
+  font-weight: bold;
   margin-right: 2rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,29 +29,21 @@
 }
 
 .case1 {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/naestvedProvsti.png");
 }
 
 .case2 {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/nvoeFP.png");
 }
 
 .case3 {
-  background-image: url("../images/hero.jpg");
-}
-
-.case4 {
-  background-image: url("../images/hero.jpg");
-}
-
-.case5 {
-  background-image: url("../images/hero.jpg");
-  margin-right: 0;
+  background-image: url("../images/genskab.png");
 }
 
 @media screen and (min-width: 1024px) {
   .carouselItem {
     width: 40vw;
     margin-right: 1vw;
+    height: 80vh;
   }
 }
