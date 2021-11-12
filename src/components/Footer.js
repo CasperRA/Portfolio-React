@@ -18,7 +18,7 @@ function Footer() {
         <a href="https://www.linkedin.com/in/casper-reedtz-andersen-1618091b3/">
           <img className="w-10" src={LinkedIn} alt="LinkedIn" />
         </a>
-        <a href="mailto:CReedtz1@gmail.com">
+        <a href="mailto:CReedtz1@gmail.com" target="mailto:CReedtz1@gmail.com">
           <img className="w-10" src={Email} alt="Email" />
         </a>
       </div>

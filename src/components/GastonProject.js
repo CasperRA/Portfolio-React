@@ -16,7 +16,7 @@ function ProvstiProject() {
     <div>
       <h1
         data-aos="fade-down"
-        className="text-4xl font-bold text-center pt-24 text-prim-white lg:text-6xl lg:text-left lg:pl-8"
+        className="text-4xl font-bold text-center pt-24 text-prim-gaston lg:text-6xl lg:text-left lg:pl-8"
       >
         Gaston Media
       </h1>

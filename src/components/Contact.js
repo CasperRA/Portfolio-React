@@ -31,14 +31,22 @@ function Contact() {
           className="w-full text-prim-orange font-bold flex flex-col justify-center align-center items-center text-center mt-8"
         >
           <img className="w-24" src={Email} alt="Email" />{" "}
-          <p className="text-xl font-bold">CReedtz1@gmail.com</p>
+          <a
+            href="mailto:CReedtz1@gmail.com"
+            target="_blank"
+            className="text-xl font-bold"
+          >
+            CReedtz1@gmail.com
+          </a>
         </div>
         <div
           data-aos="fade-left"
           className="w-full text-prim-orange font-bold flex flex-col justify-center align-center items-center text-center mt-8"
         >
           <img className="w-24" src={Phone} alt="Phone" />{" "}
-          <p className="text-xl font-bold">27512422</p>
+          <a href="tel:+4527512422" className="text-xl font-bold">
+            27512422
+          </a>
         </div>
       </div>
     </div>

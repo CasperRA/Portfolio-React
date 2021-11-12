@@ -11,20 +11,20 @@ function Navigation() {
       <Link id="home" className="menu-item" href="/">
         Home
       </Link>
-      <div className="no-hover pt-16 pb-2">
+      <div className="no-hover pt-16 pb-2 text-prim-white">
         <h2 className="text-3xl no-hover text-left pl-4">Projects</h2>
-        <div className="w-3/5 h-1 prim-white mt-1"></div>
+        <div className="w-full h-1 mt-1 background-blue"></div>
       </div>
-      <Link className="menu-item" href="/Provsti">
+      <Link className="menu-item text-4xl" href="/Provsti">
         Næstved Provsti
       </Link>
-      <Link className="menu-item" href="/Gaston">
+      <Link className="menu-item text-4xl" href="/Gaston">
         Gaston Media
       </Link>
-      <Link className="menu-item" href="/Nordvest">
+      <Link className="menu-item text-4xl" href="/Nordvest">
         Nordvest Ølbar
       </Link>
-      <Link className="menu-item" href="/Genskab">
+      <Link className="menu-item text-4xl" href="/Genskab">
         Genskab
       </Link>
     </Menu>

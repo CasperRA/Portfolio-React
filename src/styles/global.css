@@ -46,6 +46,10 @@ body {
   color: #5541f8;
 }
 
+.background-blue {
+  background-color: #358cd6;
+}
+
 .custom-border {
   border-color: #358cd6;
 }
@@ -53,6 +57,7 @@ body {
 .drop-shadow {
   filter: drop-shadow(8px 8px 0px #358cd6);
 }
+
 .no-hover:hover {
   color: #fafafa !important;
   transform: none !important;

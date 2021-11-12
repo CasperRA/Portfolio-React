@@ -8,6 +8,7 @@ module.exports = {
         "prim-blue": "#358CD6",
         "sec-purple": "#2C314A",
         "prim-provsti": "#F8F2E3",
+        "prim-gaston": "#5541f8;",
       },
       zIndex: {
         "-1": "-1",
