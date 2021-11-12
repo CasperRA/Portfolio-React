@@ -9,6 +9,7 @@ module.exports = {
         "sec-purple": "#2C314A",
         "prim-provsti": "#F8F2E3",
         "prim-gaston": "#5541f8;",
+        "prim-genskab": "#5CD48C;",
       },
       zIndex: {
         "-1": "-1",

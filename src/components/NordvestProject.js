@@ -6,7 +6,8 @@ import { useEffect } from "react";
 import FrontP from "../images/provstiFP.png";
 import Heart from "../images/provstiHeart.png";
 import Podcast from "../images/provstiPodcast.png";
-import Logo from "../images/provstiWhiteLogo.png";
+import Logo from "../images/nordvestLogo.png";
+import Quiz from "../images/nordvestQuiz.png";
 import { Link } from "gatsby";
 
 function ProvstiProject() {
@@ -19,7 +20,7 @@ function ProvstiProject() {
         data-aos="fade-down"
         className="text-4xl font-bold text-center pt-24 text-prim-provsti lg:text-6xl lg:text-left lg:pl-8"
       >
-        Næstved Provsti
+        Nordvest Ølbar
       </h1>
       <div className="w-full flex flex-col lg:flex-row">
         <div className=" text-center lg:text-left lg:px-8 lg:w-1/3">
@@ -27,7 +28,7 @@ function ProvstiProject() {
             data-aos="fade-right"
             className="text-xl font-semibold pt-2 lg:pt-4 "
           >
-            Digitization of a church
+            Updating a bar with a fresh taste
           </h2>
           <p
             data-aos="fade-right"
@@ -39,16 +40,10 @@ function ProvstiProject() {
             the church. <br /> <br /> On the following pictures you can see some
             of the designs me and my team created.
           </p>
-          <div className="mt-4" data-aos="fade-right">
-            <a
-              className="underline"
-              href="https://naestved-provsti.netlify.app/"
-            >
-              Link to Næstved Provsti website
-            </a>
-          </div>
-          <div data-aos="fade-up" className="py-8 flex justify-center">
-            <img className="w-1/2" src={Logo} alt="" />
+
+          <div data-aos="fade-up" className="py-8 flex justify-around">
+            <img className="w-1/3" src={Logo} alt="" />
+            <img className="w-1/3" src={Quiz} alt="" />
           </div>
         </div>
         <div className="flex flex-col lg:px-8 lg:w-2/3">

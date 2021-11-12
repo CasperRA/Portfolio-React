@@ -2,7 +2,7 @@ import * as React from "react";
 
 //components
 import Navigation from "../components/Navigation";
-import ProvstiProject from "../components/ProvstiProject";
+import NordvestProject from "../components/NordvestProject";
 import Footer from "../components/Footer";
 
 // markup
@@ -10,9 +10,9 @@ const IndexPage = () => {
   return (
     <main>
       <div>
-        <title>Næstved Provsti</title>
+        <title>Nordvest Ølbar</title>
         <Navigation />
-        <ProvstiProject />
+        <NordvestProject />
         <Footer />
       </div>
     </main>

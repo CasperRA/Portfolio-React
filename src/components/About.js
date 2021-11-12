@@ -52,8 +52,8 @@ function About() {
           </h3>
           <p className="mt-4 text-lg font-medium md:text-xl 2xl:text-xl 2xl:mt-8">
             HTML <br /> CSS <br /> JS <br /> SASS <br /> VueJS <br /> ReactJS
-            <br /> Gatsby <br /> Bootstrap <br /> Bulma <br /> NPM/Yarn <br />
-            Tailwind
+            <br /> Gatsby <br /> Bootstrap <br /> Bulma <br /> NPM <br />
+            Tailwind <br /> Firebase
           </p>
         </div>
         <div

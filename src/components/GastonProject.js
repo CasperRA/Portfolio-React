@@ -7,6 +7,7 @@ import FrontP from "../images/gastonFront.png";
 import Heart from "../images/gastonPeople.png";
 import Podcast from "../images/gastonCases.png";
 import { Link } from "gatsby";
+import Logo from "../images/gastonLogo.png";
 
 function ProvstiProject() {
   useEffect(() => {
@@ -32,14 +33,23 @@ function ProvstiProject() {
             data-aos="fade-right"
             className="pt-6 px-8 lg:px-0 lg:pt-8 lg:w-full"
           >
-            When working on digitizing Næstved Provsti, we had a target audience
-            of teenagers to young adults. Therefore to meet the expectation of
-            the young, we wanted to create a modern website and new image for
-            the church. <br /> <br /> On the following pictures you can see some
-            of the designs me and my team created.
+            Gaston Media was where we got to work with multiple customers at a
+            time, just like a real media agency. For this we created a small
+            website to display our work, we've made during this project. <br />{" "}
+            <br /> Our scope with this project was to seem reliable, modern and
+            introduce us to new dependancies. We got to share different
+            knowledge across the board, with developers and designers alike.
           </p>
+          <div className="mt-4" data-aos="fade-right">
+            <a className="underline" href="https://gastonmedia.netlify.app/">
+              Link to Gaston Media website
+            </a>
+          </div>
+          <div data-aos="fade-up" className="pt-8 flex justify-center">
+            <img className="w-2/3" src={Logo} alt="" />
+          </div>
         </div>
-        <div className="flex flex-col lg:px-8 lg:w-2/3">
+        <div className="flex flex-col mt-8 lg:px-8 lg:w-2/3">
           <div class="lg:flex lg:justify-end">
             <img
               data-aos="fade-left"
