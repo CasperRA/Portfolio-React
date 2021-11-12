@@ -12,11 +12,18 @@ function Navigation() {
       <a id="home" className="menu-item" href="/">
         Home
       </a>
-      <a id="about" className="menu-item" href="/about">
-        About
+      <div className="no-hover pt-16 pb-2">
+        <h2 className="text-3xl no-hover text-left">Projects</h2>
+        <div className="w-4/5 h-1 prim-white mt-1"></div>
+      </div>
+      <a id="about" className="menu-item" href="/Provsti">
+        Provsti
       </a>
-      <a id="contact" className="menu-item" href="/contact">
-        Contact
+      <a id="about" className="menu-item" href="/Nordvest">
+        Nordvest Ølbar
+      </a>
+      <a id="about" className="menu-item" href="/Genskab">
+        Genskab
       </a>
     </Menu>
   );
