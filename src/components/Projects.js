@@ -31,10 +31,10 @@ function Projects() {
               </div>
             </div>
           </Link>
-          <Link draggable="false" to="/Genskab">
+          <Link draggable="false" to="/Gaston">
             <div className="carouselItem case2">
               <div className="w-64 text-center py-12 prim-purple drop-shadow">
-                <h2>Genskab</h2>
+                <h2>Gaston Media</h2>
               </div>
             </div>
           </Link>
@@ -42,6 +42,13 @@ function Projects() {
             <div className="carouselItem case3">
               <div className="w-64 text-center py-12 prim-purple drop-shadow">
                 <h2>Nordvest Ølbar</h2>
+              </div>
+            </div>
+          </Link>
+          <Link draggable="false" to="/Genskab">
+            <div className="carouselItem case4">
+              <div className="w-64 text-center py-12 prim-purple drop-shadow">
+                <h2>Genskab</h2>
               </div>
             </div>
           </Link>

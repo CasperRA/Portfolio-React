@@ -38,6 +38,10 @@ body {
   background-color: #f3f3f3;
 }
 
+.custom-border {
+  border-color: #358cd6;
+}
+
 .drop-shadow {
   filter: drop-shadow(8px 8px 0px #358cd6);
 }

@@ -31,12 +31,13 @@
 .case1 {
   background-image: url("../images/naestvedProvsti.png");
 }
-
 .case2 {
+  background-image: url("../images/gastonFront.png");
+}
+.case3 {
   background-image: url("../images/nvoeFP.png");
 }
-
-.case3 {
+.case4 {
   background-image: url("../images/genskab.png");
 }
 
