@@ -10,6 +10,7 @@ module.exports = {
         "prim-provsti": "#F8F2E3",
         "prim-gaston": "#5541f8;",
         "prim-genskab": "#5CD48C;",
+        "prim-nordvest": "#5d7a85;",
       },
       zIndex: {
         "-1": "-1",

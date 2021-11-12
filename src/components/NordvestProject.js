@@ -3,9 +3,9 @@ import "../styles/global.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import FrontP from "../images/provstiFP.png";
-import Heart from "../images/provstiHeart.png";
-import Podcast from "../images/provstiPodcast.png";
+import FrontP from "../images/nvoeFP.png";
+import Heart from "../images/nordvestEvent.png";
+import Podcast from "../images/nordvestSort.png";
 import Logo from "../images/nordvestLogo.png";
 import Quiz from "../images/nordvestQuiz.png";
 import { Link } from "gatsby";
@@ -18,7 +18,7 @@ function ProvstiProject() {
     <div>
       <h1
         data-aos="fade-down"
-        className="text-4xl font-bold text-center pt-24 text-prim-provsti lg:text-6xl lg:text-left lg:pl-8"
+        className="text-4xl font-bold text-center pt-24 text-prim-nordvest lg:text-6xl lg:text-left lg:pl-8"
       >
         Nordvest Ølbar
       </h1>
@@ -28,17 +28,20 @@ function ProvstiProject() {
             data-aos="fade-right"
             className="text-xl font-semibold pt-2 lg:pt-4 "
           >
-            Updating a bar with a fresh taste
+            Updating a bar with fresh taste.
           </h2>
           <p
             data-aos="fade-right"
             className="pt-6 px-8 lg:px-0 lg:pt-8 lg:w-full"
           >
-            When working on digitizing Næstved Provsti, we had a target audience
-            of teenagers to young adults. Therefore to meet the expectation of
-            the young, we wanted to create a modern website and new image for
-            the church. <br /> <br /> On the following pictures you can see some
-            of the designs me and my team created.
+            Nordvest Ølbar was my first real client I had to work with. We were
+            tasked to update a bar owners website to make it more than just an
+            informational website. <br /> <br /> As a team we were drawn to the
+            atmosphere in the bar. That's why we decided to use a lot of
+            pictures through out the whole website, to really get the atmosphere
+            across to the users. <br /> Being a beer bar, we also decided on a
+            moody/darkened theme to allow for more coziness and the old school
+            feeling.
           </p>
 
           <div data-aos="fade-up" className="py-8 flex justify-around">
